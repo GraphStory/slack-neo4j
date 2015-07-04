@@ -34,7 +34,7 @@ class slack:
         command = text.split(" ")[0]
 
         if command == "":
-            return "\n" + overview()
+            return overview()
 
         if command == "import":
             return insert()
